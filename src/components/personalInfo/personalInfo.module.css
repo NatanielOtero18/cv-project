@@ -1,0 +1,16 @@
+.personalContainer {
+  background-color: rgb(34, 34, 34);
+  color: whitesmoke;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: 3px solid whitesmoke;
+  gap: 1em;
+}
+
+.personalInfoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=personalInfo.module.css.map */

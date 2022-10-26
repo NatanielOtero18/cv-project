@@ -1,0 +1,20 @@
+@use '../shared' as s;
+
+
+
+.personalContainer{
+    background-color: s.$component-bg-color;
+    color: s.$component-font-color;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;   
+    border: 3px solid whitesmoke;
+    gap: 1em;
+   
+}
+.personalInfoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

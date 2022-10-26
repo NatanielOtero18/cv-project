@@ -1,0 +1,12 @@
+
+
+body{
+    background-color: gainsboro;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        font-size: 1em;
+    }
+}

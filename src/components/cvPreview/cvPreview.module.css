@@ -1,0 +1,24 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  padding: 1em;
+}
+
+.personalContainer {
+  background-color: rgb(34, 34, 34);
+  color: whitesmoke;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 100%;
+}
+
+.personalInfoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceContainer {
+  margin-top: 1em;
+}/*# sourceMappingURL=cvPreview.module.css.map */

@@ -1,0 +1,67 @@
+
+@use "../shared" as s;
+
+.header {
+    display:flex; 
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    background-color:s.$component-bg-color;
+    color:s.$component-font-color;    
+    height: 2em; 
+    padding: 1em;
+    .btnContainer{  
+        flex: 0 1 auto;
+       
+        button{       
+                            
+            border-radius: 50%;
+            padding: 1em;
+            border: 1px solid white;
+            background-color: s.$component-bg-color;
+            color: s.$component-font-color;
+        }
+        
+    }
+    .titleContainer{
+       
+        font-size: 1.4em;
+        flex: 0 1 auto;
+        position: absolute; 
+        transform: translateX(-50%);
+        left: 50%;           
+        h3{
+           
+            margin: 0;
+            display: inline-block;
+        }
+        
+    }
+    
+   
+  }
+
+
+ 
+
+@media screen and (max-width:700px) {
+    .header{
+        height: 4em;
+        padding: 3em;
+        .titleContainer{
+            margin-bottom: 2em;
+            font-size: 2em;
+            margin-left: 1em;
+            margin-right: 0;
+        }
+        .btnContainer{
+            button{
+                margin-left: 0;
+                margin-bottom: 4em;
+                
+            }
+        }
+    }
+   
+    
+}

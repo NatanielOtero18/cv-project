@@ -1,0 +1,71 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    padding: 1em;
+    
+}
+
+.personalContainer{    
+    padding: 1em;
+    display: grid;
+    grid-template-rows: 1fr repeat(2fr); 
+    height: 100%;   
+    gap: 1em;
+   
+   
+}
+.personalInfoText{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-left: 1em;  
+    font-size:1.5em;
+    font-weight: bold;  
+   
+}
+
+.experienceContainer{
+    margin-top: 1em;
+    background-color:lightgray;
+    padding:0.5em;
+    border: 1px solid black; 
+    gap: 0.5em;
+   
+}
+
+.itemContainer{
+    
+    border: 1px solid black; 
+    padding: 0.5em;
+}
+
+.photoContainer{
+    display: flex;        
+    padding:0.5em; 
+    background-color:lightgray;   
+    border: 1px solid black;  
+}
+
+.educationContainer{
+    background-color:lightgray;
+    padding:0.5em;
+    border: 1px solid black; 
+    gap: 0.5em;
+}
+
+.sectionTitle{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    margin-top: 0.5em;
+
+}
+
+.careerInfoText{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-left: 1em;    
+}

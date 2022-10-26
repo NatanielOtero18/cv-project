@@ -1,0 +1,8 @@
+$component-bg-color: rgb(34, 34, 34);
+$component-font-color: whitesmoke;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

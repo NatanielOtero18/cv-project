@@ -1,0 +1,32 @@
+@use '../shared' as s;
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    padding: 1em;
+    
+}
+
+.personalContainer{
+    background-color: s.$component-bg-color;
+    color: s.$component-font-color;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    height: 100%; 
+   
+   
+}
+.personalInfoText{
+    display: flex;
+    flex-direction: column;   
+   
+}
+
+.experienceContainer{
+    margin-top: 1em;
+}
+
+
